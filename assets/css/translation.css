@@ -1,0 +1,65 @@
+.page-header{
+    background-image:url(../images/gzlqzfca1vc-jamie-street-min.jpg);
+    height:20vh;
+    width:100%;
+    background-size: cover;
+    background-position:bottom;
+    margin-bottom:1em;
+}
+
+.title-text{
+    font-size:30px;
+    font-family:'exo', sans-serif;
+    display:flex;
+    justify-content: center;
+    position:relative;
+    top:40%;
+    padding:.5em;
+    background-color:rgba(150,148,148,0.45);
+
+}
+.trans-content{
+    background-color:aliceblue
+}
+
+.trans-img img{
+    max-width:100%;
+}
+
+
+.translation-text h2{
+    font-size:18px;
+    padding:1em;
+}
+
+.trans-btn{
+    transition:0.5s;
+    padding:1em 6em;
+    margin:2em 0;
+}
+
+
+@media only screen 
+and (min-width : 768px) {
+    
+    .page-header {
+    height:40vh !important
+	}
+	
+	.title-text {
+		font-size:30px;
+	}
+
+    .trans-content{
+    display:flex;
+        
+}
+    
+    .translation-text{
+    padding-left:1em;
+}
+    
+    .trans-btn{
+    padding:1em 3em;
+}
+}

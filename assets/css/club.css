@@ -1,0 +1,101 @@
+.page-header{
+    background-image:url(../images/txg9vln1j9u-victoria-alexander-min.jpg);
+    height:20vh;
+    width:100%;
+    background-size: cover;
+    background-position:center;
+    margin-bottom:1em
+}
+
+.title-text{
+    font-size:20px;
+    font-family:'exo', sans-serif;
+    display:flex;
+    justify-content: center;
+    position:relative;
+    top:40%;
+    padding:.5em;
+    background-color:rgba(150,148,148,0.45);
+
+}
+
+.buttons{
+	text-align:center;
+	margin:0 auto;
+    box-sizing: border-box;
+    
+    
+}
+
+button{
+    transition-duration: 0.5s;
+    padding:.5em 2em;
+    text-align: center
+}
+
+.club-pics{
+    max-width: 100%;
+}
+
+figcaption{
+    background-color:aliceblue;
+    padding:.5em;
+    color:black;
+}
+
+figcaption h2{
+    padding:.5em;
+    text-align: center
+}
+
+figcaption p{
+    line-height: 1.7em
+}
+
+figure{
+    margin: 1em 0;
+}
+
+.desc p{
+    margin:.5em 0;
+}
+
+.desc{
+    margin:1em 0;
+}
+
+.meetup-link{
+    background-color:lightcoral;
+    margin:1em;
+    text-align: center;
+    padding:.7em
+}
+
+@media only screen 
+and (min-width : 768px) {
+    
+    .page-header {
+    height:40vh !important
+	}
+	
+	.title-text {
+		font-size:30px;
+	}
+    
+    .events{
+        display:flex;
+        
+    }
+    
+    figure{
+        background-color:aliceblue;
+        margin:.5em;
+    }
+    
+    figcaption p {
+        text-transform: none
+    }
+    
+
+    
+}

@@ -1,0 +1,116 @@
+.page-header{
+    background-image:url(../images/o6icdlt5_2k-ming-jun-tan-min.jpg);
+    height:20vh;
+    width:100%;
+    background-size: cover;
+    background-position:center;
+    margin-bottom:1em
+}
+
+.title-text{
+    font-size:30px;
+    font-family:'exo', sans-serif;
+    display:flex;
+    justify-content: center;
+    position:relative;
+    top:40%;
+    padding:.5em;
+    background-color:rgba(150,148,148,0.45);
+
+}
+
+.buttons{
+	text-align:center;
+	margin:0 auto;
+    box-sizing: border-box;
+    
+    
+}
+
+button{
+    transition-duration: 0.5s;
+    padding:.5em 2em;
+}
+
+.tour-pics{
+	width:90%;
+	padding:2%;
+	margin:2%;
+	float:none;
+}
+
+.tourInfo p{
+	padding:.5em;
+	font-family:'dosis', sans-serif;
+	font-size:16px;
+	
+}
+
+.tour-heading p {
+	background-color:rgba(153,218,232,0.50);
+	display:block;
+	padding:.5em;
+	font-family:'exo', sans-serif;
+	font-size:20px;
+    text-align: center;
+}
+
+.main-desc {
+		text-align:justify;
+		background-color:rgba(144,14,18,0.69);
+		color:white;
+		padding: 1em;
+    margin:1em 0;
+		font-family:'dosis', sans-serif;
+		font-size:20px;
+}
+
+.clear{
+    clear: both;
+}
+
+@media only screen 
+and (min-width : 900px) {
+.page-header {
+    height:40vh !important
+	}
+	
+	.title-text {
+		font-size:30px;
+	}
+	
+	.lang-change {
+		left:22%;
+		width:auto;
+	}
+	
+	.tour-pics {
+		float:left;
+		width:40%
+	}
+	
+	.tourInfo p{
+        font-size:18px;
+	}
+	
+	.tour-heading p {
+		text-align: left;
+        padding:1em;
+	}
+	
+	#main-desc {
+		font-size:12px;
+	}
+    
+    button {
+        padding: 1em 5em;
+        margin:1em
+    }
+    
+    .tour-desc p{
+        font-size:16px;
+        line-height: 1em
+    }
+	
+
+
